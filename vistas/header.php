@@ -1,4 +1,4 @@
-<?php
+u<?php
 if (strlen(session_id()) < 1) 
   session_start();
 ?>
@@ -51,22 +51,6 @@ if (strlen(session_id()) < 1)
             <?php 
             if (isset($_SESSION["nombre"]))
             {
-              // echo '<div class="p-dropdown">
-              //   <a href="#" class="btn btn-light btn-round" data-toggle="dropdown">
-              //     <img src="../files/usuarios/'.$_SESSION["imagen"].'"'. 'class="user-image" alt="User Image">
-              //   </a>
-              //   <div class="p-dropdown-content">
-              //     <div class="widget-myaccount">
-              //         <div class="d-block">
-              //           <img src="../files/usuarios/'.$_SESSION['imagen'].'"'. 'class="img-circle" alt="User Image">
-              //         </div>
-              //         <span class="hidden-xs">'.$_SESSION['nombre'].'</span>
-              //         <ul class="text-center">
-              //           <li><a href="../ajax/usuario.php?op=salir"><i class="icon-log-out"></i>Cerrar</a></li>
-              //         </ul>
-              //     </div>
-              //   </div>
-              // </div>';
                 echo '<div class="navbar-custom-menu">
                     <ul class="nav navbar-nav">
                       <li class="dropdown notifications-menu">
